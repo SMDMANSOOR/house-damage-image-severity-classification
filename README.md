@@ -4,7 +4,6 @@ End-to-end image classification solution to identify house damage types (fire, w
 # 🏠 House Damage Image Classification
 
 An end-to-end deep learning project that classifies house damage images into categories such as **Fire Accident, Water Damage, Wind Damage, Lightning Damage, and Normal**, using transfer learning.  
-This repository is designed to be **understandable by non-AI users**, with detailed explanations embedded directly into the Jupyter notebook.
 
 ---
 
