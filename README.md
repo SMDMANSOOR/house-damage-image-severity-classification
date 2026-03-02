@@ -83,3 +83,30 @@ house-damage-image-classification/
 ├── House_Damage_Classification_EXPLAINED_FOR_BUSINESS.ipynb
 ├── README.md
 
+
+
+## 📉 Known Limitation: Small Dataset Impact
+
+This project is intentionally built using a **limited number of training images** to demonstrate a Proof of Concept (PoC).
+
+Due to the **small dataset size**:
+- Some damage categories may be **misclassified**
+- Visually similar damages (e.g., fire vs. wind damage) may confuse the model
+- Rare damage types (such as lightning damage) may have lower confidence scores
+
+This behavior is **expected** in deep learning models when trained on limited data.
+
+### 🔍 Why This Happens
+Deep learning models learn patterns from examples.  
+With fewer images:
+- The model cannot see enough variations of each damage type
+- It may learn incomplete or biased patterns
+
+### 🚀 How This Can Be Improved
+With a **larger and more diverse dataset**, model performance can be significantly improved by:
+- Adding more images per damage category
+- Including variations in lighting, angles, and severity
+- Balancing rare and frequent damage types
+- Fine-tuning the model for additional training epochs
+
+With sufficient data, the observed misclassification issues are expected to be **significantly reduced or eliminated**.
