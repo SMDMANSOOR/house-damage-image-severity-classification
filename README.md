@@ -110,3 +110,12 @@ With a **larger and more diverse dataset**, model performance can be significant
 - Fine-tuning the model for additional training epochs
 
 With sufficient data, the observed misclassification issues are expected to be **significantly reduced or eliminated**.
+
+
+## 🐍 Environment & Kernel Information
+
+- **Python Version:** 3.9.x  
+- **Jupyter Kernel:** Python 3.9 (ipykernel)
+
+This notebook was developed and tested using **Python 3.9**.  
+For best compatibility and consistent results, it is recommended to run the notebook using the same Python version.
