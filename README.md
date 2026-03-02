@@ -63,4 +63,23 @@ This project demonstrates how **AI can assist damage classification** from image
 ---
 
 ## 📁 Repository Structure
+house-damage-image-classification/
+│
+├── data/
+│ ├── train/
+│ │ ├── Fire_Accident/
+│ │ ├── Water_Damage_Plumbing/
+│ │ ├── Wind_Tree_Damage/
+│ │ ├── Lightning_Damage/
+│ │ └── Normal/
+│ │
+│ └── test/
+│ ├── Fire_Accident/
+│ ├── Water_Damage_Plumbing/
+│ ├── Wind_Tree_Damage/
+│ ├── Lightning_Damage/
+│ └── Normal/
+│
+├── House_Damage_Classification_EXPLAINED_FOR_BUSINESS.ipynb
+├── README.md
 
